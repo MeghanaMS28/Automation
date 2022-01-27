@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups><run><include name = "AdhocTesting"></include></run></groups>
+  <test thread-count="5" name="Test" >
+    <classes>
+      <class name="testNG_Basics.TC_priority_001"/>
+      <class name="testNG_Basics.TC_Invocationcount_001"/>
+      <class name="testNG_Basics.TC_basic_001"/>
+      <class name="testNG_Basics.TC_threadPoolSize_001"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
